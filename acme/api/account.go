@@ -4,11 +4,11 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/go-chi/chi"
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-certificates/acme"
 	"github.com/RTradeLtd/ca-certificates/api"
 	"github.com/RTradeLtd/ca-certificates/logging"
+	"github.com/go-chi/chi"
+	"github.com/pkg/errors"
 )
 
 // NewAccountRequest represents the payload for a new account request.

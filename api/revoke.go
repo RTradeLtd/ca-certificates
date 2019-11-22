@@ -3,9 +3,9 @@ package api
 import (
 	"net/http"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-certificates/authority"
 	"github.com/RTradeLtd/ca-certificates/logging"
+	"github.com/pkg/errors"
 	"golang.org/x/crypto/ocsp"
 )
 

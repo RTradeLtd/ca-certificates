@@ -13,8 +13,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-cli/jose"
+	"github.com/pkg/errors"
 )
 
 // gcpCertsURL is the url that serves Google OAuth2 public keys.

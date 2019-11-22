@@ -15,8 +15,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-cli/jose"
+	"github.com/pkg/errors"
 )
 
 // awsIssuer is the string used as issuer in the generated tokens.

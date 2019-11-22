@@ -8,10 +8,10 @@ import (
 	"os"
 	"unicode"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-certificates/authority"
 	"github.com/RTradeLtd/ca-certificates/ca"
 	"github.com/RTradeLtd/ca-cli/errs"
+	"github.com/pkg/errors"
 	"github.com/urfave/cli"
 )
 

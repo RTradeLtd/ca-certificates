@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pkg/errors"
-	"github.com/smallstep/assert"
 	"github.com/RTradeLtd/ca-cli/crypto/pemutil"
 	"github.com/RTradeLtd/ca-cli/crypto/x509util"
 	stepx509 "github.com/RTradeLtd/ca-cli/pkg/x509"
+	"github.com/pkg/errors"
+	"github.com/smallstep/assert"
 )
 
 func Test_emailOnlyIdentity_Valid(t *testing.T) {

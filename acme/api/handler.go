@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/go-chi/chi"
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-certificates/acme"
 	"github.com/RTradeLtd/ca-certificates/api"
 	"github.com/RTradeLtd/ca-certificates/authority/provisioner"
 	"github.com/RTradeLtd/ca-cli/jose"
+	"github.com/go-chi/chi"
+	"github.com/pkg/errors"
 )
 
 func link(url, typ string) string {

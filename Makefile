@@ -292,3 +292,19 @@ artifacts-release: artifacts-tag
 artifacts: artifacts-$(PUSHTYPE) docker-$(PUSHTYPE)
 
 .PHONY: artifacts-master artifacts-release-candidate artifacts-release artifacts
+
+# run standard go tooling for better rcode hygiene
+.PHONY: tidy
+tidy: imports fmtt
+	go vet ./...
+	golint ./...
+
+# automatically add missing imports
+.PHONY: imports
+imports:
+	find . -type f -name '*.go' -exec goimports -w {} \;
+
+# format code and simplify if possible
+.PHONY: fmtt
+fmtt:
+	find . -type f -name '*.go' -exec gofmt -s -w {} \;

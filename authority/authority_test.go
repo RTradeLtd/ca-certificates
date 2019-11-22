@@ -6,11 +6,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/pkg/errors"
-	"github.com/smallstep/assert"
 	"github.com/RTradeLtd/ca-certificates/authority/provisioner"
 	"github.com/RTradeLtd/ca-certificates/db"
 	stepJOSE "github.com/RTradeLtd/ca-cli/jose"
+	"github.com/pkg/errors"
+	"github.com/smallstep/assert"
 )
 
 func testAuthority(t *testing.T) *Authority {

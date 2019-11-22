@@ -12,11 +12,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-certificates/api"
 	"github.com/RTradeLtd/ca-certificates/authority"
 	"github.com/RTradeLtd/ca-cli/crypto/randutil"
 	stepJOSE "github.com/RTradeLtd/ca-cli/jose"
+	"github.com/pkg/errors"
 	jose "gopkg.in/square/go-jose.v2"
 	"gopkg.in/square/go-jose.v2/jwt"
 )

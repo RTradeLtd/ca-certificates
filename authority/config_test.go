@@ -3,12 +3,12 @@ package authority
 import (
 	"testing"
 
-	"github.com/pkg/errors"
-	"github.com/smallstep/assert"
 	"github.com/RTradeLtd/ca-certificates/authority/provisioner"
 	"github.com/RTradeLtd/ca-cli/crypto/tlsutil"
 	"github.com/RTradeLtd/ca-cli/crypto/x509util"
 	stepJOSE "github.com/RTradeLtd/ca-cli/jose"
+	"github.com/pkg/errors"
+	"github.com/smallstep/assert"
 	jose "gopkg.in/square/go-jose.v2"
 )
 

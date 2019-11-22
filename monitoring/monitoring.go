@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/RTradeLtd/ca-certificates/logging"
 	newrelic "github.com/newrelic/go-agent"
 	"github.com/pkg/errors"
-	"github.com/RTradeLtd/ca-certificates/logging"
 )
 
 // Middleware is a function returns another http.Handler that wraps the given

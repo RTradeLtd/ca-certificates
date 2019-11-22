@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-certificates/logging"
+	"github.com/pkg/errors"
 )
 
 func TestLogError(t *testing.T) {

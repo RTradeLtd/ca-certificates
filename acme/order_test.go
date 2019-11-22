@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pkg/errors"
-	"github.com/smallstep/assert"
 	"github.com/RTradeLtd/ca-certificates/authority/provisioner"
 	"github.com/RTradeLtd/ca-certificates/db"
+	"github.com/pkg/errors"
+	"github.com/smallstep/assert"
 	"github.com/smallstep/nosql"
 	"github.com/smallstep/nosql/database"
 )

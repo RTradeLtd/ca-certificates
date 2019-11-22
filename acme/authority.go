@@ -9,10 +9,10 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-certificates/authority/provisioner"
 	database "github.com/RTradeLtd/ca-certificates/db"
 	"github.com/RTradeLtd/ca-cli/jose"
+	"github.com/pkg/errors"
 	"github.com/smallstep/nosql"
 )
 

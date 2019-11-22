@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/RTradeLtd/ca-cli/jose"
 	"github.com/pkg/errors"
 	"github.com/smallstep/assert"
-	"github.com/RTradeLtd/ca-cli/jose"
 )
 
 func Test_openIDConfiguration_Validate(t *testing.T) {

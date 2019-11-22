@@ -8,14 +8,14 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/go-chi/chi"
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-certificates/acme"
 	"github.com/RTradeLtd/ca-certificates/api"
 	"github.com/RTradeLtd/ca-certificates/authority/provisioner"
 	"github.com/RTradeLtd/ca-certificates/logging"
 	"github.com/RTradeLtd/ca-cli/crypto/keys"
 	"github.com/RTradeLtd/ca-cli/jose"
+	"github.com/go-chi/chi"
+	"github.com/pkg/errors"
 	"github.com/smallstep/nosql"
 )
 

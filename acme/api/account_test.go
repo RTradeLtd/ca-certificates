@@ -10,12 +10,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-chi/chi"
-	"github.com/pkg/errors"
-	"github.com/smallstep/assert"
 	"github.com/RTradeLtd/ca-certificates/acme"
 	"github.com/RTradeLtd/ca-certificates/authority/provisioner"
 	"github.com/RTradeLtd/ca-cli/jose"
+	"github.com/go-chi/chi"
+	"github.com/pkg/errors"
+	"github.com/smallstep/assert"
 )
 
 var (

@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/RTradeLtd/ca-cli/crypto/keys"
 	"github.com/pkg/errors"
 	"github.com/smallstep/assert"
-	"github.com/RTradeLtd/ca-cli/crypto/keys"
 	"golang.org/x/crypto/ssh"
 )
 

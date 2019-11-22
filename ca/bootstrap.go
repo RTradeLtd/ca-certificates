@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-cli/jose"
+	"github.com/pkg/errors"
 	"gopkg.in/square/go-jose.v2/jwt"
 )
 

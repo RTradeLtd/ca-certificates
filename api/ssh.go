@@ -6,8 +6,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-certificates/authority/provisioner"
+	"github.com/pkg/errors"
 	"golang.org/x/crypto/ssh"
 )
 

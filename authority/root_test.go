@@ -6,9 +6,9 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/RTradeLtd/ca-cli/crypto/pemutil"
 	"github.com/pkg/errors"
 	"github.com/smallstep/assert"
-	"github.com/RTradeLtd/ca-cli/crypto/pemutil"
 )
 
 func TestRoot(t *testing.T) {

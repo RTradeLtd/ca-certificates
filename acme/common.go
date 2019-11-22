@@ -5,9 +5,9 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-certificates/authority/provisioner"
 	"github.com/RTradeLtd/ca-cli/crypto/randutil"
+	"github.com/pkg/errors"
 )
 
 // SignAuthority is the interface implemented by a CA authority.

@@ -9,8 +9,6 @@ import (
 	"net/url"
 	"reflect"
 
-	"github.com/go-chi/chi"
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-certificates/acme"
 	acmeAPI "github.com/RTradeLtd/ca-certificates/acme/api"
 	"github.com/RTradeLtd/ca-certificates/api"
@@ -19,6 +17,8 @@ import (
 	"github.com/RTradeLtd/ca-certificates/logging"
 	"github.com/RTradeLtd/ca-certificates/monitoring"
 	"github.com/RTradeLtd/ca-certificates/server"
+	"github.com/go-chi/chi"
+	"github.com/pkg/errors"
 	"github.com/smallstep/nosql"
 )
 

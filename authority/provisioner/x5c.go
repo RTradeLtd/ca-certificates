@@ -6,9 +6,9 @@ import (
 	"encoding/pem"
 	"time"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-cli/crypto/x509util"
 	"github.com/RTradeLtd/ca-cli/jose"
+	"github.com/pkg/errors"
 )
 
 // x5cPayload extends jwt.Claims with step attributes.

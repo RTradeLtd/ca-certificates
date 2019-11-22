@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/RTradeLtd/ca-cli/jose"
 	"github.com/pkg/errors"
 	"github.com/smallstep/assert"
-	"github.com/RTradeLtd/ca-cli/jose"
 )
 
 func TestK8sSA_Getters(t *testing.T) {

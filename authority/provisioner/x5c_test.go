@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pkg/errors"
-	"github.com/smallstep/assert"
 	"github.com/RTradeLtd/ca-cli/crypto/pemutil"
 	"github.com/RTradeLtd/ca-cli/jose"
+	"github.com/pkg/errors"
+	"github.com/smallstep/assert"
 )
 
 func TestX5C_Getters(t *testing.T) {

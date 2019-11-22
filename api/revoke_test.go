@@ -11,11 +11,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/pkg/errors"
-	"github.com/smallstep/assert"
 	"github.com/RTradeLtd/ca-certificates/authority"
 	"github.com/RTradeLtd/ca-certificates/authority/provisioner"
 	"github.com/RTradeLtd/ca-certificates/logging"
+	"github.com/pkg/errors"
+	"github.com/smallstep/assert"
 )
 
 func TestRevokeRequestValidate(t *testing.T) {

@@ -8,8 +8,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/smallstep/assert"
 	"github.com/RTradeLtd/ca-cli/jose"
+	"github.com/smallstep/assert"
 )
 
 func TestCollection_Load(t *testing.T) {

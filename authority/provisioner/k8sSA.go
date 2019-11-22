@@ -7,9 +7,9 @@ import (
 	"crypto/x509"
 	"encoding/pem"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-cli/crypto/pemutil"
 	"github.com/RTradeLtd/ca-cli/jose"
+	"github.com/pkg/errors"
 	"golang.org/x/crypto/ed25519"
 )
 

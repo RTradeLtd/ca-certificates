@@ -21,11 +21,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-certificates/api"
 	"github.com/RTradeLtd/ca-certificates/authority"
 	"github.com/RTradeLtd/ca-cli/config"
 	"github.com/RTradeLtd/ca-cli/crypto/x509util"
+	"github.com/pkg/errors"
 	"gopkg.in/square/go-jose.v2/jwt"
 )
 

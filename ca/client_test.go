@@ -13,10 +13,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/smallstep/assert"
 	"github.com/RTradeLtd/ca-certificates/api"
 	"github.com/RTradeLtd/ca-certificates/authority/provisioner"
 	"github.com/RTradeLtd/ca-cli/crypto/x509util"
+	"github.com/smallstep/assert"
 )
 
 const (

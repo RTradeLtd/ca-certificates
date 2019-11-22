@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/RTradeLtd/ca-certificates/db"
 	"github.com/pkg/errors"
 	"github.com/smallstep/assert"
-	"github.com/RTradeLtd/ca-certificates/db"
 	"github.com/smallstep/nosql"
 	"github.com/smallstep/nosql/database"
 )

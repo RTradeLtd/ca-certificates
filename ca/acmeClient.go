@@ -11,10 +11,10 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-certificates/acme"
 	acmeAPI "github.com/RTradeLtd/ca-certificates/acme/api"
 	"github.com/RTradeLtd/ca-cli/jose"
+	"github.com/pkg/errors"
 )
 
 // ACMEClient implements an HTTP client to an ACME API.

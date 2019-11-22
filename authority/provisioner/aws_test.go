@@ -15,8 +15,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/smallstep/assert"
 	"github.com/RTradeLtd/ca-cli/jose"
+	"github.com/smallstep/assert"
 )
 
 func TestAWS_Getters(t *testing.T) {

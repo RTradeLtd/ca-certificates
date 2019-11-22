@@ -8,7 +8,6 @@ import (
 	"net/url"
 	"os"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-certificates/authority"
 	"github.com/RTradeLtd/ca-certificates/ca"
 	"github.com/RTradeLtd/ca-certificates/pki"
@@ -17,6 +16,7 @@ import (
 	"github.com/RTradeLtd/ca-cli/errs"
 	"github.com/RTradeLtd/ca-cli/ui"
 	"github.com/RTradeLtd/ca-cli/utils"
+	"github.com/pkg/errors"
 	"github.com/urfave/cli"
 )
 

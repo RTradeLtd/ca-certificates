@@ -9,11 +9,11 @@ import (
 
 	"github.com/RTradeLtd/ca-certificates/authority/provisioner"
 
-	"github.com/pkg/errors"
-	"github.com/smallstep/assert"
 	"github.com/RTradeLtd/ca-cli/crypto/pemutil"
 	"github.com/RTradeLtd/ca-cli/crypto/randutil"
 	"github.com/RTradeLtd/ca-cli/jose"
+	"github.com/pkg/errors"
+	"github.com/smallstep/assert"
 	"gopkg.in/square/go-jose.v2/jwt"
 )
 

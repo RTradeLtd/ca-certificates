@@ -6,8 +6,8 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-cli/crypto/keys"
+	"github.com/pkg/errors"
 	"golang.org/x/crypto/ssh"
 )
 

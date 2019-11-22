@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/RTradeLtd/ca-cli/jose"
 	"github.com/pkg/errors"
 	"github.com/smallstep/assert"
-	"github.com/RTradeLtd/ca-cli/jose"
 )
 
 func TestJWK_Getters(t *testing.T) {

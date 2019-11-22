@@ -17,7 +17,6 @@ import (
 
 	"golang.org/x/crypto/ssh"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-certificates/authority"
 	"github.com/RTradeLtd/ca-certificates/authority/provisioner"
 	"github.com/RTradeLtd/ca-certificates/ca"
@@ -31,6 +30,7 @@ import (
 	"github.com/RTradeLtd/ca-cli/jose"
 	"github.com/RTradeLtd/ca-cli/ui"
 	"github.com/RTradeLtd/ca-cli/utils"
+	"github.com/pkg/errors"
 )
 
 const (

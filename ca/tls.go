@@ -12,8 +12,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-certificates/api"
+	"github.com/pkg/errors"
 	"golang.org/x/net/http2"
 )
 

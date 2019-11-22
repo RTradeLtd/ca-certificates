@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/go-chi/chi"
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-certificates/acme"
 	"github.com/RTradeLtd/ca-certificates/api"
+	"github.com/go-chi/chi"
+	"github.com/pkg/errors"
 )
 
 // NewOrderRequest represents the body for a NewOrder request.

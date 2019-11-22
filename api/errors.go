@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-certificates/acme"
 	"github.com/RTradeLtd/ca-certificates/logging"
+	"github.com/pkg/errors"
 )
 
 // StatusCoder interface is used by errors that returns the HTTP response code.

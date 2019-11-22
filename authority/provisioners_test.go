@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"testing"
 
+	"github.com/RTradeLtd/ca-certificates/authority/provisioner"
 	"github.com/pkg/errors"
 	"github.com/smallstep/assert"
-	"github.com/RTradeLtd/ca-certificates/authority/provisioner"
 )
 
 func TestGetEncryptedKey(t *testing.T) {

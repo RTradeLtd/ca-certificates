@@ -17,12 +17,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-chi/chi"
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-certificates/authority"
 	"github.com/RTradeLtd/ca-certificates/authority/provisioner"
 	"github.com/RTradeLtd/ca-certificates/logging"
 	"github.com/RTradeLtd/ca-cli/crypto/tlsutil"
+	"github.com/go-chi/chi"
+	"github.com/pkg/errors"
 )
 
 // Authority is the interface implemented by a CA authority.

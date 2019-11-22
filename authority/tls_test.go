@@ -15,8 +15,6 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pkg/errors"
-	"github.com/smallstep/assert"
 	"github.com/RTradeLtd/ca-certificates/authority/provisioner"
 	"github.com/RTradeLtd/ca-certificates/db"
 	"github.com/RTradeLtd/ca-cli/crypto/keys"
@@ -24,6 +22,8 @@ import (
 	"github.com/RTradeLtd/ca-cli/crypto/tlsutil"
 	"github.com/RTradeLtd/ca-cli/crypto/x509util"
 	"github.com/RTradeLtd/ca-cli/jose"
+	"github.com/pkg/errors"
+	"github.com/smallstep/assert"
 	"gopkg.in/square/go-jose.v2/jwt"
 )
 

@@ -5,12 +5,12 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-certificates/authority/provisioner"
 	"github.com/RTradeLtd/ca-cli/crypto/randutil"
 	"github.com/RTradeLtd/ca-cli/jose"
 	"github.com/RTradeLtd/ca-cli/token"
 	"github.com/RTradeLtd/ca-cli/token/provision"
+	"github.com/pkg/errors"
 )
 
 const tokenLifetime = 5 * time.Minute

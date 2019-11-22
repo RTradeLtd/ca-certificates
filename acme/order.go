@@ -7,8 +7,8 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-certificates/authority/provisioner"
+	"github.com/pkg/errors"
 	"github.com/smallstep/nosql"
 )
 
