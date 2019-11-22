@@ -23,7 +23,7 @@ issue tracker to ask questions.
 
 If you believe you have found a defect in `step certificates` or its
 documentation, use the GitHub [issue
-tracker](https://github.com/smallstep/certificates/issues) to report the
+tracker](https://github.com/RTradeLtd/ca-certificates/issues) to report the
 problem. When reporting the issue, please provide the version of `step
 certificates` in use (`step-ca version`) and your operating system.
 
@@ -35,7 +35,7 @@ Authority. We encourage all contributions that meet the following criteria:
 * fit naturally into a Certificate Authority.
 * strive not to break existing functionality.
 * close or update an open [`step certificates`
-issue](https://github.com/smallstep/certificates/issues)
+issue](https://github.com/RTradeLtd/ca-certificates/issues)
 
 **Bug fixes are, of course, always welcome.**
 

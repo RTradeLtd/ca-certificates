@@ -3,7 +3,7 @@ package authority
 import (
 	"crypto/x509"
 
-	"github.com/smallstep/certificates/db"
+	"github.com/RTradeLtd/ca-certificates/db"
 )
 
 type MockAuthDB struct {

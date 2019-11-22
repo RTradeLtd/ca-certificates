@@ -15,9 +15,9 @@ import (
 	"github.com/go-chi/chi"
 	"github.com/pkg/errors"
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/acme"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/cli/crypto/pemutil"
+	"github.com/RTradeLtd/ca-certificates/acme"
+	"github.com/RTradeLtd/ca-certificates/authority/provisioner"
+	"github.com/RTradeLtd/ca-cli/crypto/pemutil"
 )
 
 func TestNewOrderRequestValidate(t *testing.T) {

@@ -2,7 +2,7 @@
 
 An online certificate authority and related tools for secure automated certificate management, so you can use TLS everywhere.
 
-This repository is for `step-ca`, a certificate authority that exposes an API for automated certificate management. It also contains a [golang SDK](https://github.com/smallstep/certificates/tree/master/examples#basic-client-usage) for interacting with `step-ca` programatically. However, you'll probably want to use the [`step` command-line tool](https://github.com/smallstep/cli) to operate `step-ca` and get certificates, instead of using this low-level SDK directly.
+This repository is for `step-ca`, a certificate authority that exposes an API for automated certificate management. It also contains a [golang SDK](https://github.com/RTradeLtd/ca-certificates/tree/master/examples#basic-client-usage) for interacting with `step-ca` programatically. However, you'll probably want to use the [`step` command-line tool](https://github.com/RTradeLtd/ca-cli) to operate `step-ca` and get certificates, instead of using this low-level SDK directly.
 
 **Questions? Find us [on gitter](https://gitter.im/smallstep/community).**
 
@@ -12,22 +12,22 @@ This repository is for `step-ca`, a certificate authority that exposes an API fo
 [Getting Started](./docs/GETTING_STARTED.md) |
 [Contribution Guide](./docs/CONTRIBUTING.md)
 
-[![GitHub release](https://img.shields.io/github/release/smallstep/certificates.svg)](https://github.com/smallstep/certificates/releases)
+[![GitHub release](https://img.shields.io/github/release/smallstep/certificates.svg)](https://github.com/RTradeLtd/ca-certificates/releases)
 [![Join the chat at https://gitter.im/smallstep/community](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/smallstep/community)
 [![CA Image](https://images.microbadger.com/badges/image/smallstep/step-ca.svg)](https://microbadger.com/images/smallstep/step-ca)
-[![Go Report Card](https://goreportcard.com/badge/github.com/smallstep/certificates)](https://goreportcard.com/report/github.com/smallstep/certificates)
+[![Go Report Card](https://goreportcard.com/badge/github.com/RTradeLtd/ca-certificates)](https://goreportcard.com/report/github.com/RTradeLtd/ca-certificates)
 [![Build Status](https://travis-ci.com/smallstep/certificates.svg?branch=master)](https://travis-ci.com/smallstep/certificates)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![CLA assistant](https://cla-assistant.io/readme/badge/smallstep/certificates)](https://cla-assistant.io/smallstep/certificates)
 
-[![GitHub stars](https://img.shields.io/github/stars/smallstep/certificates.svg?style=social)](https://github.com/smallstep/certificates/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/smallstep/certificates.svg?style=social)](https://github.com/RTradeLtd/ca-certificates/stargazers)
 [![Twitter followers](https://img.shields.io/twitter/follow/smallsteplabs.svg?label=Follow&style=social)](https://twitter.com/intent/follow?screen_name=smallsteplabs)
 
-![Animated terminal showing step certificates in practice](https://github.com/smallstep/certificates/raw/master/docs/images/step-ca-2-legged.gif)
+![Animated terminal showing step certificates in practice](https://github.com/RTradeLtd/ca-certificates/raw/master/docs/images/step-ca-2-legged.gif)
 
 ## Features
 
-It's super easy to get started and to operate `step-ca` thanks to [streamlined initialization](https://github.com/smallstep/certificates#lets-get-started) and [safe, sane defaults](https://github.com/smallstep/certificates/blob/master/docs/defaults.md). **Get started in 15 minutes.**
+It's super easy to get started and to operate `step-ca` thanks to [streamlined initialization](https://github.com/RTradeLtd/ca-certificates#lets-get-started) and [safe, sane defaults](https://github.com/RTradeLtd/ca-certificates/blob/master/docs/defaults.md). **Get started in 15 minutes.**
 
 ### A private certificate authority you run yourself
 
@@ -37,7 +37,7 @@ It's super easy to get started and to operate `step-ca` thanks to [streamlined i
 - [Short-lived certificates](https://smallstep.com/blog/passive-revocation.html) with **fully automated** enrollment, renewal, and revocation
 - Fast, stable, and capable of high availability deployment using [root federation](https://smallstep.com/blog/step-v0.8.3-federation-root-rotation.html) and/or multiple intermediaries
 - Operate as an online intermediate for an existing root CA
-- [Pluggable database backends](https://github.com/smallstep/certificates/blob/master/docs/database.md) for persistence
+- [Pluggable database backends](https://github.com/RTradeLtd/ca-certificates/blob/master/docs/database.md) for persistence
 - [Helm charts](https://hub.helm.sh/charts/smallstep/step-certificates), [autocert](https://github.com/smallstep/autocert), and [cert-manager integration](https://github.com/smallstep/step-issuer) for kubernetes
 
 ### Lots of (automatable) ways to get certificates
@@ -60,7 +60,7 @@ It's super easy to get started and to operate `step-ca` thanks to [streamlined i
 - Issue SSH user certificates using OAuth OIDC
 - Issue SSH host certificates to cloud VMs using instance identity documents
 
-### Easy certificate management and automation via [`step` CLI](https://github.com/smallstep/cli) [integration](https://smallstep.com/docs/cli/ca/)
+### Easy certificate management and automation via [`step` CLI](https://github.com/RTradeLtd/ca-cli) [integration](https://smallstep.com/docs/cli/ca/)
 
 - Generate key pairs where they're needed so private keys are never transmitted across the network
 - [Authenticate and obtain a certificate](https://smallstep.com/docs/cli/ca/certificate/) using any enrollment mechanism supported by `step-ca`
@@ -106,7 +106,7 @@ post](https://smallstep.com/blog/step-certificates.html) announcing this project
 These instructions will install an OS specific version of the `step-ca` binary on
 your local machine.
 
-While `step` is not required to run `step-ca`, it will make your life easier so you'll probably want to [install it](https://github.com/smallstep/cli#installation-guide) too.
+While `step` is not required to run `step-ca`, it will make your life easier so you'll probably want to [install it](https://github.com/RTradeLtd/ca-cli#installation-guide) too.
 
 ### Mac OS
 
@@ -139,10 +139,10 @@ Certificate:
 1. [Optional] Install `step`.
 
     Download the latest Debian package from
-    [`step` releases](https://github.com/smallstep/cli/releases):
+    [`step` releases](https://github.com/RTradeLtd/ca-cli/releases):
 
     ```
-    $ wget https://github.com/smallstep/cli/releases/download/vX.Y.Z/step-cli_X.Y.Z_amd64.deb
+    $ wget https://github.com/RTradeLtd/ca-cli/releases/download/vX.Y.Z/step-cli_X.Y.Z_amd64.deb
     ```
 
     Install the Debian package:
@@ -153,10 +153,10 @@ Certificate:
 
 2. Install `step-ca`.
 
-    Download the latest Debian package from [releases](https://github.com/smallstep/certificates/releases):
+    Download the latest Debian package from [releases](https://github.com/RTradeLtd/ca-certificates/releases):
 
     ```
-    $ wget https://github.com/smallstep/certificates/releases/download/vX.Y.Z/step-certificates_X.Y.Z_amd64.deb
+    $ wget https://github.com/RTradeLtd/ca-certificates/releases/download/vX.Y.Z/step-certificates_X.Y.Z_amd64.deb
     ```
 
     Install the Debian package:
@@ -240,7 +240,7 @@ Your PKI is ready to go. To generate certificates for individual services see 's
 
 This command will:
 
-- Generate [password protected](https://github.com/smallstep/certificates/blob/master/docs/GETTING_STARTED.md#passwords)  private keys for your CA to sign certificates
+- Generate [password protected](https://github.com/RTradeLtd/ca-certificates/blob/master/docs/GETTING_STARTED.md#passwords)  private keys for your CA to sign certificates
 - Generate a root and [intermediate signing certificate](https://security.stackexchange.com/questions/128779/why-is-it-more-secure-to-use-intermediate-ca-certificates) for your CA
 - Create a JSON configuration file for `step-ca` (see [getting started](./docs/GETTING_STARTED.md) for details)
 

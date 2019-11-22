@@ -22,10 +22,10 @@ import (
 	"strings"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/api"
-	"github.com/smallstep/certificates/authority"
-	"github.com/smallstep/cli/config"
-	"github.com/smallstep/cli/crypto/x509util"
+	"github.com/RTradeLtd/ca-certificates/api"
+	"github.com/RTradeLtd/ca-certificates/authority"
+	"github.com/RTradeLtd/ca-cli/config"
+	"github.com/RTradeLtd/ca-cli/crypto/x509util"
 	"gopkg.in/square/go-jose.v2/jwt"
 )
 

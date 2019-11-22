@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/authority/provisioner"
+	"github.com/RTradeLtd/ca-certificates/authority/provisioner"
 	"golang.org/x/crypto/ssh"
 )
 

@@ -7,8 +7,8 @@ import (
 	"os"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/acme"
-	"github.com/smallstep/certificates/logging"
+	"github.com/RTradeLtd/ca-certificates/acme"
+	"github.com/RTradeLtd/ca-certificates/logging"
 )
 
 // StatusCoder interface is used by errors that returns the HTTP response code.

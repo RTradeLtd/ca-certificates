@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: step-certificates
-Source: https://github.com/smallstep/certificates
+Source: https://github.com/RTradeLtd/ca-certificates
 
 Files: *
 Copyright: 2019 Smallstep Labs, Inc.

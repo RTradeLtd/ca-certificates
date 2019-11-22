@@ -16,8 +16,8 @@ import (
 	"time"
 
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/logging"
+	"github.com/RTradeLtd/ca-certificates/authority/provisioner"
+	"github.com/RTradeLtd/ca-certificates/logging"
 	"golang.org/x/crypto/ssh"
 )
 

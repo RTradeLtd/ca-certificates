@@ -11,11 +11,11 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/db"
-	"github.com/smallstep/cli/crypto/pemutil"
-	"github.com/smallstep/cli/crypto/tlsutil"
-	"github.com/smallstep/cli/crypto/x509util"
+	"github.com/RTradeLtd/ca-certificates/authority/provisioner"
+	"github.com/RTradeLtd/ca-certificates/db"
+	"github.com/RTradeLtd/ca-cli/crypto/pemutil"
+	"github.com/RTradeLtd/ca-cli/crypto/tlsutil"
+	"github.com/RTradeLtd/ca-cli/crypto/x509util"
 )
 
 // GetTLSOptions returns the tls options configured.

@@ -6,9 +6,9 @@ import (
 
 	"github.com/go-chi/chi"
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/acme"
-	"github.com/smallstep/certificates/api"
-	"github.com/smallstep/certificates/logging"
+	"github.com/RTradeLtd/ca-certificates/acme"
+	"github.com/RTradeLtd/ca-certificates/api"
+	"github.com/RTradeLtd/ca-certificates/logging"
 )
 
 // NewAccountRequest represents the payload for a new account request.

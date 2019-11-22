@@ -18,7 +18,7 @@ e.g. `v1.0.2`
 ---
 1. **Release `cli` first**
 
-    If you plan to release [`cli`](https://github.com/smallstep/cli) as part of
+    If you plan to release [`cli`](https://github.com/RTradeLtd/ca-cli) as part of
     this release, `cli` must be released first. The `certificates` docker container
     depends on the `cli` container. Make certain to wait until the `cli` travis
     build has completed.
@@ -26,7 +26,7 @@ e.g. `v1.0.2`
 2. **Update the version of step/cli**
 
     <pre><code>
-    <b>$ go get -u github.com/smallstep/cli</b>
+    <b>$ go get -u github.com/RTradeLtd/ca-cli</b>
     </code></pre>
 
 3. **Commit all changes.**
@@ -96,7 +96,7 @@ e.g. `v1.0.2`
     Travis will begin by verifying that there are no compilation or linting errors
     and then run the unit tests. Assuming all the checks have passed, Travis will
     build Darwin and Linux artifacts (for easily installing `step`) and upload them
-    as part of the [Github Release](https://github.com/smallstep/certificates/releases).
+    as part of the [Github Release](https://github.com/RTradeLtd/ca-certificates/releases).
 
     Travis will build and upload the following artifacts:
 
@@ -161,5 +161,5 @@ e.g. `v1.0.2`
 ## Versioning
 
 We use [SemVer](http://semver.org/) for versioning. See the
-[tags on this repository](https://github.com/smallstep/certificates) for all
+[tags on this repository](https://github.com/RTradeLtd/ca-certificates) for all
 available versions.

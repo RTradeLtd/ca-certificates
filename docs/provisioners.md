@@ -9,7 +9,7 @@ can be used to authenticate with the CA and get a certificate.
 JWK is the default provisioner type. It uses public-key cryptography to sign and
 validate a JSON Web Token (JWT).
 
-The [step](https://github.com/smallstep/cli) CLI tool will create a JWK
+The [step](https://github.com/RTradeLtd/ca-cli) CLI tool will create a JWK
 provisioner when `step ca init` is used, and it also contains commands to add
 (`step ca provisioner add`) and remove (`step ca provisioner remove`) JWK
 provisioners.
@@ -53,7 +53,7 @@ In the ca.json configuration file, a complete JWK provisioner example looks like
   token. It's a JWE compact string containing the JWK representation of the
   private key.
 
-  We can use [step](https://github.com/smallstep/cli) to see the private key
+  We can use [step](https://github.com/RTradeLtd/ca-cli) to see the private key
   encrypted with the password `asdf`:
 
   ```sh
@@ -153,7 +153,7 @@ is G-Suite.
 
 ## Provisioners for Cloud Identities
 
-[Step certificates](https://github.com/smallstep/certificates) can grant
+[Step certificates](https://github.com/RTradeLtd/ca-certificates) can grant
 certificates to code running in a machine without any other authentication than
 the one provided by the cloud. Usually, this is implemented with some kind of
 signed document, but the information contained on them might not be enough to
@@ -171,7 +171,7 @@ attempt to grant a certificate to that instance.
 The AWS provisioner allows granting a certificate to an Amazon EC2 instance
 using the [Instance Identity Documents](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-identity-documents.html)
 
-The [step](https://github.com/smallstep/cli) CLI will generate a custom JWT
+The [step](https://github.com/RTradeLtd/ca-cli) CLI will generate a custom JWT
 token containing the instance identity document and its signature and the CA
 will grant a certificate after validating it.
 

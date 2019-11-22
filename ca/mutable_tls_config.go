@@ -5,7 +5,7 @@ import (
 	"crypto/x509"
 	"sync"
 
-	"github.com/smallstep/certificates/api"
+	"github.com/RTradeLtd/ca-certificates/api"
 )
 
 // mutableTLSConfig allows to use a tls.Config with mutable cert pools.

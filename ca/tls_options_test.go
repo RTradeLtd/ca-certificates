@@ -10,7 +10,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/smallstep/certificates/api"
+	"github.com/RTradeLtd/ca-certificates/api"
 )
 
 func Test_newTLSOptionCtx(t *testing.T) {

@@ -17,13 +17,13 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/db"
-	"github.com/smallstep/cli/crypto/keys"
-	"github.com/smallstep/cli/crypto/pemutil"
-	"github.com/smallstep/cli/crypto/tlsutil"
-	"github.com/smallstep/cli/crypto/x509util"
-	"github.com/smallstep/cli/jose"
+	"github.com/RTradeLtd/ca-certificates/authority/provisioner"
+	"github.com/RTradeLtd/ca-certificates/db"
+	"github.com/RTradeLtd/ca-cli/crypto/keys"
+	"github.com/RTradeLtd/ca-cli/crypto/pemutil"
+	"github.com/RTradeLtd/ca-cli/crypto/tlsutil"
+	"github.com/RTradeLtd/ca-cli/crypto/x509util"
+	"github.com/RTradeLtd/ca-cli/jose"
 	"gopkg.in/square/go-jose.v2/jwt"
 )
 

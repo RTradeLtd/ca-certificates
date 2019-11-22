@@ -6,7 +6,7 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/authority/provisioner"
+	"github.com/RTradeLtd/ca-certificates/authority/provisioner"
 )
 
 func TestGetEncryptedKey(t *testing.T) {

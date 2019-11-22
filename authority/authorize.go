@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/cli/jose"
+	"github.com/RTradeLtd/ca-certificates/authority/provisioner"
+	"github.com/RTradeLtd/ca-cli/jose"
 )
 
 // Claims extends jose.Claims with step attributes.

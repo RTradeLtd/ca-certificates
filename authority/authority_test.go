@@ -8,9 +8,9 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/db"
-	stepJOSE "github.com/smallstep/cli/jose"
+	"github.com/RTradeLtd/ca-certificates/authority/provisioner"
+	"github.com/RTradeLtd/ca-certificates/db"
+	stepJOSE "github.com/RTradeLtd/ca-cli/jose"
 )
 
 func testAuthority(t *testing.T) *Authority {

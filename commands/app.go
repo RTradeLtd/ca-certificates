@@ -9,9 +9,9 @@ import (
 	"unicode"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/authority"
-	"github.com/smallstep/certificates/ca"
-	"github.com/smallstep/cli/errs"
+	"github.com/RTradeLtd/ca-certificates/authority"
+	"github.com/RTradeLtd/ca-certificates/ca"
+	"github.com/RTradeLtd/ca-cli/errs"
 	"github.com/urfave/cli"
 )
 

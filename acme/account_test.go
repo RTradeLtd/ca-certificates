@@ -8,9 +8,9 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/db"
-	"github.com/smallstep/cli/jose"
+	"github.com/RTradeLtd/ca-certificates/authority/provisioner"
+	"github.com/RTradeLtd/ca-certificates/db"
+	"github.com/RTradeLtd/ca-cli/jose"
 	"github.com/smallstep/nosql"
 	"github.com/smallstep/nosql/database"
 )

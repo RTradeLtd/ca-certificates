@@ -3,7 +3,7 @@
 Demonstrates setting up your own public key infrastructure (PKI) and certificate authority (CA) using `step ca`
 and getting certificates using the `step` command line tool and SDK.
 
-Check out [Getting started with docker](docker.md) to run [step certificates](https://github.com/smallstep/certificates)
+Check out [Getting started with docker](docker.md) to run [step certificates](https://github.com/RTradeLtd/ca-certificates)
 using docker.
 
 ![Animated terminal showing step ca init in practice](https://smallstep.com/images/blog/2018-12-04-unfurl.gif)

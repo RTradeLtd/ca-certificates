@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/smallstep/cli/crypto/pemutil"
-	"github.com/smallstep/cli/crypto/x509util"
-	"github.com/smallstep/cli/jose"
+	"github.com/RTradeLtd/ca-cli/crypto/pemutil"
+	"github.com/RTradeLtd/ca-cli/crypto/x509util"
+	"github.com/RTradeLtd/ca-cli/jose"
 )
 
 func getTestProvisioner(t *testing.T, caURL string) *Provisioner {

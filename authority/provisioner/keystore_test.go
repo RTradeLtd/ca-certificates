@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/smallstep/assert"
-	"github.com/smallstep/cli/jose"
+	"github.com/RTradeLtd/ca-cli/jose"
 )
 
 func Test_newKeyStore(t *testing.T) {

@@ -8,7 +8,7 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/smallstep/assert"
-	"github.com/smallstep/cli/jose"
+	"github.com/RTradeLtd/ca-cli/jose"
 )
 
 func TestK8sSA_Getters(t *testing.T) {

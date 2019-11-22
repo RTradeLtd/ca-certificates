@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/authority"
-	"github.com/smallstep/certificates/logging"
+	"github.com/RTradeLtd/ca-certificates/authority"
+	"github.com/RTradeLtd/ca-certificates/logging"
 	"golang.org/x/crypto/ocsp"
 )
 

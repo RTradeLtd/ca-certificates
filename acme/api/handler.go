@@ -6,10 +6,10 @@ import (
 
 	"github.com/go-chi/chi"
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/acme"
-	"github.com/smallstep/certificates/api"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/cli/jose"
+	"github.com/RTradeLtd/ca-certificates/acme"
+	"github.com/RTradeLtd/ca-certificates/api"
+	"github.com/RTradeLtd/ca-certificates/authority/provisioner"
+	"github.com/RTradeLtd/ca-cli/jose"
 )
 
 func link(url, typ string) string {

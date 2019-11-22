@@ -13,10 +13,10 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/api"
-	"github.com/smallstep/certificates/authority"
-	"github.com/smallstep/cli/crypto/randutil"
-	stepJOSE "github.com/smallstep/cli/jose"
+	"github.com/RTradeLtd/ca-certificates/api"
+	"github.com/RTradeLtd/ca-certificates/authority"
+	"github.com/RTradeLtd/ca-cli/crypto/randutil"
+	stepJOSE "github.com/RTradeLtd/ca-cli/jose"
 	jose "gopkg.in/square/go-jose.v2"
 	"gopkg.in/square/go-jose.v2/jwt"
 )

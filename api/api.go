@@ -19,10 +19,10 @@ import (
 
 	"github.com/go-chi/chi"
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/authority"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/logging"
-	"github.com/smallstep/cli/crypto/tlsutil"
+	"github.com/RTradeLtd/ca-certificates/authority"
+	"github.com/RTradeLtd/ca-certificates/authority/provisioner"
+	"github.com/RTradeLtd/ca-certificates/logging"
+	"github.com/RTradeLtd/ca-cli/crypto/tlsutil"
 )
 
 // Authority is the interface implemented by a CA authority.

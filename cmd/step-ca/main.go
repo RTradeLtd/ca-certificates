@@ -13,11 +13,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/smallstep/certificates/commands"
-	"github.com/smallstep/cli/command"
-	"github.com/smallstep/cli/command/version"
-	"github.com/smallstep/cli/config"
-	"github.com/smallstep/cli/usage"
+	"github.com/RTradeLtd/ca-certificates/commands"
+	"github.com/RTradeLtd/ca-cli/command"
+	"github.com/RTradeLtd/ca-cli/command/version"
+	"github.com/RTradeLtd/ca-cli/config"
+	"github.com/RTradeLtd/ca-cli/usage"
 	"github.com/urfave/cli"
 )
 

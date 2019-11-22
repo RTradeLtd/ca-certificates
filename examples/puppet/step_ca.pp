@@ -7,7 +7,7 @@ class step_ca(
   }
 
   $pkg = "step_${version}_linux_amd64.tar.gz"
-  $download_url = "https://github.com/smallstep/certificates/releases/download/v${version}/step-certificates_${version}_linux_amd64.tar.gz"
+  $download_url = "https://github.com/RTradeLtd/ca-certificates/releases/download/v${version}/step-certificates_${version}_linux_amd64.tar.gz"
   $step_ca_exec = '/opt/smallstep/bin/step-ca'
 
   exec {

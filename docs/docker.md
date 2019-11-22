@@ -1,13 +1,13 @@
 # Getting started with docker
 
-This guide shows how to set up [step certificates](https://github.com/smallstep/certificates) using docker.
+This guide shows how to set up [step certificates](https://github.com/RTradeLtd/ca-certificates) using docker.
 
-For short, we will use **step-ca** to refer to [step certificates](https://github.com/smallstep/certificates).
+For short, we will use **step-ca** to refer to [step certificates](https://github.com/RTradeLtd/ca-certificates).
 
 ## Requirements
 
 1. To follow this guide you will need to [install step
-cli](https://github.com/smallstep/cli#installation-guide).
+cli](https://github.com/RTradeLtd/ca-cli#installation-guide).
 
 2. Get the docker image.
 
@@ -116,7 +116,7 @@ Your configuration has been saved in ~/.step/config/defaults.json.
 Installing the root certificate in the system truststore... done.
 ```
 
-Now [step cli](https://github.com/smallstep/cli) is configured to use step-ca
+Now [step cli](https://github.com/RTradeLtd/ca-cli) is configured to use step-ca
 and our new root certificate is trusted by our local environment.
 ```sh
 $ curl https://localhost:9000/health

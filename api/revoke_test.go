@@ -13,9 +13,9 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/authority"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/logging"
+	"github.com/RTradeLtd/ca-certificates/authority"
+	"github.com/RTradeLtd/ca-certificates/authority/provisioner"
+	"github.com/RTradeLtd/ca-certificates/logging"
 )
 
 func TestRevokeRequestValidate(t *testing.T) {

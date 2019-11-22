@@ -8,7 +8,7 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/smallstep/assert"
-	"github.com/smallstep/cli/crypto/pemutil"
+	"github.com/RTradeLtd/ca-cli/crypto/pemutil"
 )
 
 func TestRoot(t *testing.T) {

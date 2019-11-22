@@ -7,7 +7,7 @@ import (
 	"net/http"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/logging"
+	"github.com/RTradeLtd/ca-certificates/logging"
 )
 
 // EnableLogger is an interface that enables response logging for an object.

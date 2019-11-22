@@ -7,7 +7,7 @@ class step(
   }
 
   $pkg = "step_${version}_linux_amd64.tar.gz"
-  $download_url = "https://github.com/smallstep/cli/releases/download/v${version}/step_${version}_linux_amd64.tar.gz"
+  $download_url = "https://github.com/RTradeLtd/ca-cli/releases/download/v${version}/step_${version}_linux_amd64.tar.gz"
   $step_exec = '/opt/smallstep/bin/step'
 
   exec {

@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/cli/crypto/keys"
+	"github.com/RTradeLtd/ca-cli/crypto/keys"
 	"golang.org/x/crypto/ssh"
 )
 

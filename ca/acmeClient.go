@@ -12,9 +12,9 @@ import (
 	"strings"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/acme"
-	acmeAPI "github.com/smallstep/certificates/acme/api"
-	"github.com/smallstep/cli/jose"
+	"github.com/RTradeLtd/ca-certificates/acme"
+	acmeAPI "github.com/RTradeLtd/ca-certificates/acme/api"
+	"github.com/RTradeLtd/ca-cli/jose"
 )
 
 // ACMEClient implements an HTTP client to an ACME API.

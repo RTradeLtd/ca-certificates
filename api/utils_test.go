@@ -9,7 +9,7 @@ import (
 	"testing"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/logging"
+	"github.com/RTradeLtd/ca-certificates/logging"
 )
 
 func TestLogError(t *testing.T) {

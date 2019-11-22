@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/cli/crypto/x509util"
-	"github.com/smallstep/cli/jose"
+	"github.com/RTradeLtd/ca-cli/crypto/x509util"
+	"github.com/RTradeLtd/ca-cli/jose"
 )
 
 // jwtPayload extends jwt.Claims with step attributes.

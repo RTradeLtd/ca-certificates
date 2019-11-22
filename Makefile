@@ -1,4 +1,4 @@
-PKG?=github.com/smallstep/certificates/cmd/step-ca
+PKG?=github.com/RTradeLtd/ca-certificates/cmd/step-ca
 BINNAME?=step-ca
 
 # Set V to 1 for verbose output from the Makefile
@@ -208,7 +208,7 @@ docker-release: docker-release-candidate docker-push-tag-latest
 changelog:
 	$Q echo "step-certificates ($(VERSION)) unstable; urgency=medium" > debian/changelog
 	$Q echo >> debian/changelog
-	$Q echo "  * See https://github.com/smallstep/certificates/releases" >> debian/changelog
+	$Q echo "  * See https://github.com/RTradeLtd/ca-certificates/releases" >> debian/changelog
 	$Q echo >> debian/changelog
 	$Q echo " -- Smallstep Labs, Inc. <techadmin@smallstep.com>  $(shell date -uR)" >> debian/changelog
 

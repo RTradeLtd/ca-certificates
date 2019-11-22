@@ -347,8 +347,8 @@ swith to the `examples/docker directory` and run `make`:
 ```
 certificates $ cd examples/docker/
 docker $ make
-GOOS=linux go build -o ca/step-ca github.com/smallstep/certificates/cmd/step-ca
-GOOS=linux go build -o renewer/step github.com/smallstep/cli/cmd/step
+GOOS=linux go build -o ca/step-ca github.com/RTradeLtd/ca-certificates/cmd/step-ca
+GOOS=linux go build -o renewer/step github.com/RTradeLtd/ca-cli/cmd/step
 docker build -t nginx-test:latest nginx
 ...
 docker-compose up
@@ -485,7 +485,7 @@ $ diff pki/cloud/config/ca.json pki/cloud/config/ca.federated.json
 
 ### Bring up Demo Server
 
-This demo server leverages step's [SDK](https://godoc.org/github.com/smallstep/certificates/ca) to obtain certs, automatically renew them, and fetch a bundle of trusted roots. When it starts up it will report what root certificates it will use to authenticate client certs.
+This demo server leverages step's [SDK](https://godoc.org/github.com/RTradeLtd/ca-certificates/ca) to obtain certs, automatically renew them, and fetch a bundle of trusted roots. When it starts up it will report what root certificates it will use to authenticate client certs.
 
 ```bash
 go run server/main.go $(step ca token \
@@ -502,7 +502,7 @@ Listening on :8443 ...
 
 ### Run Demo Client
 
-Similarly step's [SDK](https://godoc.org/github.com/smallstep/certificates/ca) provides a client option to mutually authenticate connections to servers. It automatically handles cert bootstrapping, renewal, and fetches a bundle of trusted roots. The demo client will send HTTP requests to the demo server periodically (every 5s).
+Similarly step's [SDK](https://godoc.org/github.com/RTradeLtd/ca-certificates/ca) provides a client option to mutually authenticate connections to servers. It automatically handles cert bootstrapping, renewal, and fetches a bundle of trusted roots. The demo client will send HTTP requests to the demo server periodically (every 5s).
 
 ```bash
 $ go run client/main.go $(step ca token sdk_client \
@@ -588,7 +588,7 @@ $ step ca provisioner list | jq '.[3].claims'
 Certificates with different validity periods can be generated using the respective provisioners.
 The durations are strings which are a sequence of decimal numbers, each with optional fraction and a unit suffix, such as "300ms" or "2h45m". Valid time units are "ns", "us" (or "µs"), "ms", "s", "m", "h".
 
-Please see [Getting Started](https://github.com/smallstep/certificates/blob/master/docs/GETTING_STARTED.md) in the docs directory to learn what custom claims configuration options are available and how to use them.
+Please see [Getting Started](https://github.com/RTradeLtd/ca-certificates/blob/master/docs/GETTING_STARTED.md) in the docs directory to learn what custom claims configuration options are available and how to use them.
 
 ```sh
 $ step ca certificate decade decade.crt decade.key

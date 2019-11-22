@@ -13,7 +13,7 @@ import (
 	"sync"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/cli/jose"
+	"github.com/RTradeLtd/ca-cli/jose"
 )
 
 // DefaultProvisionersLimit is the default limit for listing provisioners.
