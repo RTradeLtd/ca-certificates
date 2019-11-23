@@ -3,7 +3,7 @@ module github.com/RTradeLtd/ca-certificates
 go 1.13
 
 require (
-	github.com/RTradeLtd/ca-cli v0.14.0-rc.1.0.20191122224146-ae0d84f43064
+	github.com/RTradeLtd/ca-cli v0.17.0
 	github.com/go-chi/chi v4.0.2+incompatible
 	github.com/newrelic/go-agent v2.15.0+incompatible
 	github.com/pkg/errors v0.8.1

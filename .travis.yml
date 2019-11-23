@@ -23,11 +23,13 @@ notifications:
 stage: Github Release
 deploy:
   provider: releases
+  skip_cleanup: true
   api_key:
     secure: X5YC4v1TqsVxB5lKT/2wE3bZhAGykQ13TZ5kMKkT6aAoa90mn0nOG3e+0XUima5jziVD75IgKIrFxTuQ29uZ33ZelYzpC23xS9ngcVWNB/SKH0UD6BX+/f+/BO9Qgm6yxg2gyJE2/Zw8jtsHchmYROvL5qUWa3kXxqONMW+2Zb4yb39rhe7hw44D9VLAlst2aXxvdPJTk2B2HbJNqLEF7gbHrYv0eg+pWtMMv25ul6B+elJN2T5zIuFhbPTbm9S628cgXMwLaLVQzOeBoHI3jXB535KaKhGpC/Q3cEjFWQ7GBk3bdqEdNOkQeYv39vZzLJCDpyp38gniAOYAKUXBgfvaEkPIoBQeGwnCQY+7qwTBm3nDazdxB174L74NF5Tog94x66xE4fpBwJLPtE2Xk8QF9Z579p5FvFpN9KH0YLKefswGr3tM5YrvgorysXgU1Phw15zajsCJRmw85T5WOKzR1ZyDmdOSWg6/NP1kDozfMbU85pQkbXFNPPRPEOAlFlFn42mdpm3O7Cq18XDPkVUp6ea32nMrQgVug0gi1L3YOpsK3JweQ1/hmzhXpBPZ+6EUPE2Qiv31H0UluLUUr7/U9TZyQjhscDbGxhf3TZeamNlu63/S1XLeKEGZxmplSFJ5TpnW4lIMMGqMTqL9obTnqiEVbh9fqbgXNBStROU=
-  file_globa: true
-  file: ".travis-releases/*"
+  file_glob: true
+  file: .travis-releases/*
   on:
+    tags: true
     repo: RTradeLtd/ca-certificates
 cache:
   directories:
