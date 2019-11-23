@@ -29,4 +29,7 @@ deploy:
   file: ".travis-releases/*"
   on:
     repo: RTradeLtd/ca-certificates
-
+cache:
+  directories:
+    - $GOPATH/pkg/mod
+    - $HOME/.cache/go-build
